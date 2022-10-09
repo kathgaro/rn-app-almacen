@@ -3,14 +3,14 @@ export const products = [
         id: 1,
         categoryId: 1,
         title: 'Cuadro con vidrio',
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         stock: 20,
     },
     {
         id: 2,
         categoryId: 2,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Almohadon',
         stock: 10,
@@ -18,7 +18,7 @@ export const products = [
     {
         id: 3,
         categoryId: 7,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Vaso termico',
         stock: 100,
@@ -26,7 +26,7 @@ export const products = [
     {
         id: 4,
         categoryId: 3,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Vinilo - Frases',
         stock: 200,
@@ -34,7 +34,7 @@ export const products = [
     {
         id: 5,
         categoryId: 4,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Velas aromaticas',
         stock: 120,
@@ -42,7 +42,7 @@ export const products = [
     {
         id: 6,
         categoryId: 5,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Macetas pintadas',
         stock: 50,
@@ -50,7 +50,7 @@ export const products = [
     {
         id: 7,
         categoryId: 7,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Mate acrilico',
         stock: 10,
@@ -58,7 +58,7 @@ export const products = [
     {
         id: 8,
         categoryId: 7,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Termo 1lt',
         stock: 100,
@@ -66,7 +66,7 @@ export const products = [
     {
         id: 9,
         categoryId: 5,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Maceta de barro',
         stock: 200,
@@ -74,7 +74,7 @@ export const products = [
     {
         id: 10,
         categoryId: 4,
-        description: 'algo',
+        detail: 'algo',
         price: 100,
         title: 'Vela zodiaco',
         stock: 300,

@@ -5,12 +5,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Welcome, Gallery, Product } from "../screen";
 import {isAndroid} from '../utils';
 import { colors } from  '../constants/themes';
+import { CurrentRenderContext } from "@react-navigation/native";
 const Stack = createNativeStackNavigator();
 
 export const styles = StyleSheet.create({
     image:{
-        height: 65,
-        width: 65,
+        height: 45,
+        width: 45,
         borderRadius: 100,
         marginBottom:15,
         marginTop:15,
@@ -28,6 +29,7 @@ const NavGallery= () => {
             headerTintColor: colors.primary,
             headerTitleStyle: {
                 fontFamily: 'u-bold',
+                fontSize: 20,
             },
             headerRight: () =>  
             <View>
@@ -55,6 +57,7 @@ const NavGallery= () => {
                     title: route.params.name,
                 })}
             />
+            
        </Stack.Navigator> 
     )
 }
