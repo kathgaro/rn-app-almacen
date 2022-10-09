@@ -5,14 +5,18 @@ export const styles = StyleSheet.create({
         flex:1,
         alignItems:'center',
        // justifyContent: 'center',
-       backgroundColor: 'white',
-       
+    },
+
+    containerList:{
+        flex: 1,
+        width: '95%',
     },
     containerHeader:{
         width: '85%',
         height: 100,
         paddingTop: '5%',
         alignItems:'center',
+   
     },
     containerTitle:{
         fontFamily: 'u-bold',

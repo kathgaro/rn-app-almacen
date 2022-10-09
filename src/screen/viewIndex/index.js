@@ -1,6 +1,6 @@
 import React from "react";
 
-import { View, Text, Button, Image } from "react-native";
+import { View, Text, Button, Image,  } from "react-native";
 import { styles } from "./style";
 import {colors} from '../../../constants/colors'
 
@@ -12,9 +12,7 @@ const Welcome = ({navigation}) =>{
                     <Text style={styles.containerTitle}>Bienvenido/a!</Text>
                     <Text style={styles.containerText}>¿Que estabas buscando?</Text>
                 </View>
-                <View>
-                    <Image source={require('../../../assets/img/user.jpg')} style={styles.image}></Image>
-                </View>
+               
             </View>
             <View style={styles.ContImagePrinc}>
                 <Image source={require('../../../assets/img/image-prin.jpg')} style={styles.imagePrinc} />
